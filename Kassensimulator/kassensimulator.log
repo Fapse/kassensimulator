@@ -2,26 +2,26 @@
 <!DOCTYPE log SYSTEM "logger.dtd">
 <log>
 <record>
-  <date>2018-04-14T04:36:35.843987Z</date>
-  <millis>1523680595843</millis>
-  <nanos>987000</nanos>
+  <date>2018-04-14T05:00:34.241441Z</date>
+  <millis>1523682034241</millis>
+  <nanos>441000</nanos>
   <sequence>0</sequence>
   <logger>de.fapse.kassensimulator.model</logger>
   <level>SEVERE</level>
   <class>de.fapse.kassensimulator.model.SimModel</class>
   <method>getHsstellen</method>
-  <thread>1</thread>
+  <thread>14</thread>
   <message>Scheibenkleister</message>
 </record>
 <record>
-  <date>2018-04-14T04:36:35.932768Z</date>
-  <millis>1523680595932</millis>
-  <nanos>768000</nanos>
+  <date>2018-04-14T05:00:34.315562Z</date>
+  <millis>1523682034315</millis>
+  <nanos>562000</nanos>
   <sequence>1</sequence>
   <level>SEVERE</level>
   <class>de.fapse.kassensimulator.model.SimModel</class>
   <method>getHsstellen</method>
-  <thread>1</thread>
+  <thread>14</thread>
   <message>Test</message>
 </record>
 </log>
