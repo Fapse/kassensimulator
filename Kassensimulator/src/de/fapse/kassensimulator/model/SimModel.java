@@ -8,7 +8,6 @@ import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.logging.Level;
-import java.util.logging.LogRecord;
 import java.util.logging.Logger;
 
 public class SimModel {
@@ -22,13 +21,9 @@ public class SimModel {
 			Path datei = Paths.get("." + File.separator + "resources" + File.separator + "haushaltsstellen.txt").toRealPath();
 			hsstellen = Files.readAllLines(datei);
 		} catch (IOException e) {
-			// TODO Auto-generated catch block
+			log.severe("Fehler beim Einlesen der Haushaltsstellen!");
 			e.printStackTrace();
 		}
-		log.log(Level.SEVERE, "Scheibenkleister");
-		System.out.println("Test");
-		log.warning("Ned so tragisch!");
-		log.log(new LogRecord(Level.SEVERE, "Test"));
 		return hsstellen;
 	}
 }
