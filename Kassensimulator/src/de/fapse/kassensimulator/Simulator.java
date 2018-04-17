@@ -2,11 +2,9 @@ package de.fapse.kassensimulator;
 
 import java.io.File;
 import java.io.IOException;
-import java.util.List;
 import java.util.logging.FileHandler;
 import java.util.logging.Handler;
 import java.util.logging.Logger;
-
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;

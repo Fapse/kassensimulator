@@ -16,7 +16,4 @@ public class SimModelTest {
 		List<String> hsStellen = SimModel.getHsstellen();
 		assertTrue(hsStellen.size() > 0);
 	}
-	
-
-
 }

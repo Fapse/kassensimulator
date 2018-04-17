@@ -15,7 +15,6 @@ public class SimGuiController implements Initializable {
     @FXML
     private Label fapseLabel;
 
-
     @FXML
     private void handleButtonAction(ActionEvent event) {
         System.out.println("You clicked me!");
